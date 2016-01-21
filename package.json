@@ -1,0 +1,28 @@
+{
+  "name": "testux",
+  "version": "0.1.0",
+  "description": "test for mercadolibre ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alanRiveros/testUx.git"
+  },
+  "author": "Alan Riveros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanRiveros/testUx/issues"
+  },
+  "homepage": "https://github.com/alanRiveros/testUx#readme",
+  "dependencies": {
+    "chico": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.2.0",
+    "jade": "^1.11.0",
+    "nib": "^1.1.0",
+    "stylus": "^0.53.0"
+  }
+}
