@@ -5,11 +5,14 @@ html(lang="es")
         link(rel = 'stylesheet', href = 'statics/css/app.css')
         script(type='text/javascript', src = 'statics/js/app.js')
     body
-        h1 Holaaa probando jade cliente
-        #container.col
-            p you are amazing
-            p.
-                Jade is a terse and simple
-                templating languaje with a
-                strong focus on performance
-                and powerful features.
+        header Ipan Mini Apple 16 GB Wifi Led 7.9
+        main
+            div(class="product")
+                figure
+                    img(src="lala.jpg" alt="")
+            div(class="form")
+                include ./form/form.jade
+            div(class="more")
+                include ./more/more.jade
+            div(class="tabs")
+                include ./tabs/tabs.jade
