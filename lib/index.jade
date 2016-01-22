@@ -5,10 +5,10 @@ html(lang="es")
         link(rel = 'stylesheet', href = 'statics/css/app.css')
     body
         main(class="container")
-            section(class="ch-box product")
-                h1 Ipaul Mini Apple 16 GB Waifi Led 7.9
+            section(class="ch-box product" itemscope itemtype="http://schema.org/Product")
+                h1(itemprop="name") Ipaul Mini Apple 16 GB Waifi Led 7.9
                 div(class="image")
-                    img(src="http://static.mlstatic.com/org-img/ch/ui/1.0.0/static/ninja.png" alt="")
+                    img(itemprop="image" src="http://static.mlstatic.com/org-img/ch/ui/1.0.0/static/ninja.png" alt="Ipaul Mini Apple 16 GB Waifi Led 7.9")
                 div(class="form")
                     include ./form/form.jade
                 div(class="more")

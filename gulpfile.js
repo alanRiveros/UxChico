@@ -13,6 +13,8 @@ var path = {
     chicoDestJs: 'statics/js/'
 };
 
+gulp.task('default', ['copy', 'estilos', 'html', 'uglify']);
+
 gulp.task('html', function() {
     return gulp.src(path.jade)
         .pipe(jade({

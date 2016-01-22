@@ -2,14 +2,17 @@ div.tabs
     div.tab
         input(type="radio" id="tab-1" name="tab-group-1")
         label(for="tab-1") Product description
+        div.content Tab1
 
-    div.tab
+    div.tab(itemscope itemtype="http://schema.org/Question")
         input(type="radio" id="tab-2" name="tab-group-1" checked)
-        label(for="tab-2") Questions
+        label(for="tab-2" itemprop="name") Questions
         div.content
-            h5.buyer Buyer
+            h5.buyer(itemprop="author" itemscope itemtype="http://schema.org/Person")
+            span(itemprop="name") Buyer
             div.ch-box-info
-                p Do you have this one in while?
-            h5.seller Seller
+                p(itemprop="text") Do you have this one in while?
+            h5.seller(itemprop="author" itemscope itemtype="http://schema.org/Person")
+            span(itemprop="name") Seller
             div.ch-box-ok
-                p Do you have this one in while?
+                p(itemprop="text") Do you have this one in while?
