@@ -1,4 +1,7 @@
 @require "../node_modules/chico/dist/ui/chico.min.css"
+@require "form/form.styl"
+@require "more/more.styl"
+@require "tabs/tabs.styl"
 
 margin-ba(n)
   -webkit-margin-before n
@@ -27,37 +30,3 @@ section.product
   img
     max-width 270px
     float left
-
-form
-  display flex
-  flex-direction column
-
-.ch-form-row
-  padding 0
-  label
-    text-align left
-    width 50px
-
-.ch-form-actions
-  margin 1em 0 0.5em 0
-
-.ch-price
-  font-size 2.5em
-  margin-bottom 0.3em
-
-.tabs
-  clear both
-
-label.notice
-  color #999999
-  font-size 13px
-  text-align left
-
-li.ch-carousel-item
-  img
-    width 50px
-    height 50px
-
-.myCarousel
-  float right
-  width 244px
