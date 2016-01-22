@@ -3,16 +3,19 @@ html(lang="es")
     head
         title Hola
         link(rel = 'stylesheet', href = 'statics/css/app.css')
-        script(type='text/javascript', src = 'statics/js/app.js')
     body
-        header Ipan Mini Apple 16 GB Wifi Led 7.9
-        main
-            div(class="product")
-                figure
-                    img(src="lala.jpg" alt="")
-            div(class="form")
-                include ./form/form.jade
-            div(class="more")
-                include ./more/more.jade
-            div(class="tabs")
-                include ./tabs/tabs.jade
+        main(class="container")
+            section(class="ch-box product")
+                h1 Ipaul Mini Apple 16 GB Waifi Led 7.9
+                div(class="image")
+                    img(src="http://static.mlstatic.com/org-img/ch/ui/1.0.0/static/ninja.png" alt="")
+                div(class="form")
+                    include ./form/form.jade
+                div(class="more")
+                    include ./more/more.jade
+                div(class="tabs")
+                    include ./tabs/tabs.jade
+
+
+
+    script(type='text/javascript', src = 'statics/js/app.js')

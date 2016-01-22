@@ -36,7 +36,7 @@ gulp.task('copy', function() {
 });
 
 gulp.task('uglify', function() {
-    gulp.src(['node_modules/jquery/dist/jquery.js', 'lib/app.js', 'node_modules/chico/dist/**/chico.js'])
+    gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/chico/node_modules/tiny.js/dist/tiny.js','node_modules/chico/dist/ui/chico.js', 'lib/app.js'])
         .pipe(uglify('app.js'))
         .pipe(gulp.dest('statics/js/'))
 });
